@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'myfont';
+    src: url(segoe_slboot.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+.header{
+    display:fixed;
+    background-color: black;
+    height: 132px;
+    width: 100%;
+}
+.group-head{
+    display: flex;
+    padding-top:32px;
+}
+/* .order{
+  background-color: black;
+} */
+.para1{
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+.a1{
+    color:white;
+    text-decoration: none;
+}
+.para1:hover{
+    font-size: 15px;
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 6px;
+    background-color: rgb(42, 42, 42);
+}
+.logo-img{
+    height:26px;
+    width:123px;
+    padding-left:154px;
+}
+.titles{
+    font-size: 16px;
+    padding-top: 4px;
+    padding-left: 25px;
+    letter-spacing: 1.3px;
+    font-family: "apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol";
+}
+.anger{
+    text-decoration: none;
+}
+.links{
+    height: 80px;
+    width: 80px;
+    padding-left: 660px;
+}
+.a{
+    color:white;
+    padding: 20px 15px;
+}
+.anger{
+    color:#ffffffbf;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+.side{
+    padding-right: 20px;
+    font-size:20px;
+}
+.note{
+    width:362px;
+    height:362px;
+
+}
+.div1{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 38px 130px -28px 130px;
+}
+.main2{
+    margin: 50px;
+    display: flex;
+}
+.main2-img{
+    width: 400px;
+    padding-left: 100px;
+}
+.note1{
+    font-weight:590;
+    font-size: 23px;
+    color:black;
+    padding-bottom: 20px;
+    font-family: 'myfont';
+}
+.para2{
+    font-size: 20px;
+    color:rgb(95, 90, 90);
+    padding-bottom: 30px;
+    font-family: 'myfont';
+}
+.button{
+    background-color: black;
+    color:White;
+    height:55px;
+    width:125px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.button:hover{
+    height:60px;
+    width:130px;
+}
+.texts{
+    padding-top: 80px;
+    padding-left: 60px;
+}
+.footer{
+    background-color: black;
+    height: 468.6px;
+}
+.list,.last{
+    color:grey;
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2.3;
+    
+}
+#i{
+    color: white;
+}
+#contact{
+    font-weight: 200;
+    font-size: 19px;
+    padding-top:45px;
+    color:white
+
+}
+.lastPara,.alast{
+    color:grey;
+    text-decoration: none;
+}
+.final{
+    display: flex;
+    margin:75px 0px 0px 154px;
+    font-size:14px
+}
+.list2{
+    display: flex;
+    padding-left: 30px;
+}
+.info{
+    padding-right: 25px;
+    color:grey;
+}
+hr{
+    height: 0.7px;  
+    background-color: rgb(89, 88, 88);  
+    border: none;  
+}
+#hrlast{
+    margin-top:72px;
+}
